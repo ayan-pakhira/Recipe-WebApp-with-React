@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import AppRouter from './router/AppRouter'
 
 
 function App() {
@@ -6,7 +7,9 @@ function App() {
 
   return (
     <>
-      <h1>hello world</h1>
+      <div className="appWraper">
+        <AppRouter/>
+      </div>
     </>
   )
 }
